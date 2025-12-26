@@ -1,0 +1,298 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "username/MoonRC"
+
+// Values
+pub const ALPHA_1 : Double = 1.0
+
+pub const ALPHA_1_C50 : Double = 1.0
+
+pub const ALPHA_1_C80 : Double = 0.94
+
+pub const ALPHA_1_RECT : Double = 1.0
+
+pub const ALPHA_1_RECT_C80 : Double = 0.94
+
+pub const ALPHA_CV : Double = 0.7
+
+pub const ALPHA_CV_CONCENTRATED : Double = 1.75
+
+pub const BETA_1_C50 : Double = 0.8
+
+pub const BETA_1_C80 : Double = 0.74
+
+pub const BETA_1_RECT : Double = 0.8
+
+pub const BETA_1_RECT_C80 : Double = 0.74
+
+pub const CRACK_LEVEL_1 : Int = 1
+
+pub const CRACK_LEVEL_2 : Int = 2
+
+pub const CRACK_LEVEL_3 : Int = 3
+
+pub const C_MIN_CLASS1_BEAM : Double = 20.0
+
+pub const C_MIN_CLASS1_COLUMN : Double = 20.0
+
+pub const C_MIN_CLASS1_SLAB : Double = 15.0
+
+pub const C_MIN_CLASS2_BEAM : Double = 25.0
+
+pub const C_MIN_CLASS2_COLUMN : Double = 25.0
+
+pub const C_MIN_CLASS2_SLAB : Double = 20.0
+
+pub const DEFLECTION_LIMIT_7_9M : Double = 0.004
+
+pub const DEFLECTION_LIMIT_GT9M : Double = 0.00333333333333
+
+pub const DEFLECTION_LIMIT_LT7M : Double = 0.005
+
+pub const EC_C20 : Double = 25.5
+
+pub const EC_C25 : Double = 28.0
+
+pub const EC_C30 : Double = 30.0
+
+pub const EC_C35 : Double = 31.5
+
+pub const EC_C40 : Double = 32.5
+
+pub const EC_C45 : Double = 33.5
+
+pub const EC_C50 : Double = 34.5
+
+pub const EPSILON : Double = 1.0e-10
+
+pub const ES : Double = 200.0
+
+pub const FCK_C15 : Double = 15.0
+
+pub const FCK_C20 : Double = 20.0
+
+pub const FCK_C25 : Double = 25.0
+
+pub const FCK_C30 : Double = 30.0
+
+pub const FCK_C35 : Double = 35.0
+
+pub const FCK_C40 : Double = 40.0
+
+pub const FCK_C45 : Double = 45.0
+
+pub const FCK_C50 : Double = 50.0
+
+pub const FCK_C55 : Double = 55.0
+
+pub const FCK_C60 : Double = 60.0
+
+pub const FC_C15 : Double = 7.2
+
+pub const FC_C20 : Double = 9.6
+
+pub const FC_C25 : Double = 11.9
+
+pub const FC_C30 : Double = 14.3
+
+pub const FC_C35 : Double = 16.7
+
+pub const FC_C40 : Double = 19.1
+
+pub const FC_C45 : Double = 21.1
+
+pub const FC_C50 : Double = 23.1
+
+pub const FC_C55 : Double = 25.3
+
+pub const FC_C60 : Double = 27.5
+
+pub const FT_C15 : Double = 0.91
+
+pub const FT_C20 : Double = 1.10
+
+pub const FT_C25 : Double = 1.27
+
+pub const FT_C30 : Double = 1.43
+
+pub const FT_C35 : Double = 1.57
+
+pub const FT_C40 : Double = 1.71
+
+pub const FT_C45 : Double = 1.80
+
+pub const FT_C50 : Double = 1.89
+
+pub const FT_C55 : Double = 1.96
+
+pub const FT_C60 : Double = 2.04
+
+pub const FYC_HRB400 : Double = 360.0
+
+pub const FYC_HRB500 : Double = 410.0
+
+pub const FY_HPB300 : Double = 270.0
+
+pub const FY_HRB335 : Double = 300.0
+
+pub const FY_HRB400 : Double = 360.0
+
+pub const FY_HRB500 : Double = 435.0
+
+pub const GPA_TO_PA : Double = 1000000000.0
+
+pub const MM_TO_M : Double = 0.001
+
+pub const MPA_TO_PA : Double = 1000000.0
+
+pub const M_TO_MM : Double = 1000.0
+
+pub const PI : Double = 3.141592653589793
+
+pub const RHO_MAX_FLEXURE : Double = 0.025
+
+pub const RHO_MIN_AXIAL_COMPRESSION : Double = 0.0055
+
+pub const RHO_MIN_COMPRESSION_SIDE : Double = 0.002
+
+pub const RHO_MIN_FLEXURE : Double = 0.002
+
+pub const W_MAX_CLASS1_LEVEL3 : Double = 0.3
+
+pub const W_MAX_CLASS2_LEVEL3 : Double = 0.2
+
+pub const XI_B_HRB335_C50 : Double = 0.550
+
+pub const XI_B_HRB400_C50 : Double = 0.518
+
+pub const XI_B_HRB500_C50 : Double = 0.482
+
+pub fn abs(Double) -> Double
+
+pub fn actual_cover_thickness(Double, Double) -> Double
+
+pub fn approx_equal(Double, Double, Double) -> Bool
+
+pub fn axial_compression_capacity(Double, Double, Double, Double, Double) -> Double
+
+pub fn axial_compression_capacity_spiral(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn axial_tension_capacity(Double, Double) -> Double
+
+pub fn beam_deflection_point(Double, Double, Double) -> Double
+
+pub fn beam_deflection_uniform(Double, Double, Double) -> Double
+
+pub fn check_max_rebar_ratio(Double, Double) -> Bool
+
+pub fn check_min_rebar_ratio(Double, Double) -> Bool
+
+pub fn circle_area(Double) -> Double
+
+pub fn clamp(Double, Double, Double) -> Double
+
+pub fn crack_strain_uneven_coefficient(Double, Double, Double) -> Double
+
+pub fn cube(Double) -> Double
+
+pub fn eccentric_compression_large(Double, Double, Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn eccentric_compression_small(Double, Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn eccentric_tension_large(Double, Double, Double, Double, Double) -> Double
+
+pub fn eccentric_tension_small(Double, Double, Double, Double, Double) -> Double
+
+pub fn eccentricity_amplification_factor(Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn effective_height(Double, Double) -> Double
+
+pub fn effective_prestress(Double, Double) -> Double
+
+pub fn effective_rebar_ratio(Double, Double) -> Double
+
+pub fn elastic_modulus_ratio(Double, Double) -> Double
+
+pub fn flexure_capacity_double_rebar(Double, Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn flexure_capacity_from_x(Double, Double, Double, Double) -> Double
+
+pub fn flexure_capacity_single_rebar(Double, Double, Double, Double, Double) -> Double
+
+pub fn flexure_capacity_t_section_type1(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn flexure_capacity_t_section_type2(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn flexure_required_rebar_area(Double, Double, Double, Double, Double) -> Double
+
+pub fn is_over_reinforced(Double, Double) -> Bool
+
+pub fn is_under_reinforced(Double, Double) -> Bool
+
+pub fn is_zero(Double) -> Double
+
+pub fn lerp(Double, Double, Double) -> Double
+
+pub fn linear_interpolate(Array[Double], Array[Double], Double) -> Double
+
+pub fn long_term_stiffness(Double, Double, Double, Double) -> Double
+
+pub fn max(Double, Double) -> Double
+
+pub fn max_crack_width(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn min(Double, Double) -> Double
+
+pub fn pow4(Double) -> Double
+
+pub fn prestress_loss_anchorage(Double, Double, Double) -> Double
+
+pub fn prestress_loss_friction(Double, Double, Double, Double, Double) -> Double
+
+pub fn prestress_loss_relaxation(Double, Double) -> Double
+
+pub fn prestress_loss_shrinkage_creep(Double, Double, Double) -> Double
+
+pub fn prestress_loss_temperature(Double, Double, Double) -> Double
+
+pub fn rebar_centroid_distance(Double, Double) -> Double
+
+pub fn rebar_centroid_distance_double_row(Double, Double, Double) -> Double
+
+pub fn rebar_ratio(Double, Double, Double) -> Double
+
+pub fn rect_area(Double, Double) -> Double
+
+pub fn relative_compression_zone_height(Double, Double) -> Double
+
+pub fn safe_div(Double, Double, Double) -> Double
+
+pub fn shear_capacity_concrete_only(Double, Double, Double, Double) -> Double
+
+pub fn shear_capacity_with_stirrups(Double, Double, Double, Double, Double, Double, Double, Int) -> Double
+
+pub fn shear_required_stirrup_area(Double, Double, Double, Double, Double, Int) -> Double
+
+pub fn short_term_stiffness(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn square(Double) -> Double
+
+pub fn stability_factor(Double) -> Double
+
+pub fn torsion_capacity_pure(Double, Double, Double, Double, Double, Double, Double) -> Double
+
+pub fn torsion_plastic_modulus_rect(Double, Double) -> Double
+
+pub fn total_prestress_loss(Double, Double, Double, Double, Double) -> Double
+
+pub fn transformed_area(Double, Double, Double) -> Double
+
+pub fn trapezoid_area(Double, Double, Double) -> Double
+
+// Errors
+
+// Types and methods
+
+// Type aliases
+
+// Traits
+
