@@ -316,5 +316,3 @@ The current version (0.1.0) implements **core reinforced concrete calculation fu
 * Design utilities and material property functions
 
 The library is actively developed and aims to provide comprehensive coverage of reinforced concrete design while being optimized for MoonBit.
-#   M o o n R C  
- 
